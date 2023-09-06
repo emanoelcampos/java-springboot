@@ -1,4 +1,4 @@
-package dev.emanoel.curso01.med.voll.Endereco;
+package dev.emanoel.curso01.med.voll.endereco;
 
 public record DadosEndereco(
         String logradouro,

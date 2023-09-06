@@ -1,6 +1,6 @@
 package dev.emanoel.curso01.med.voll.medico;
 
-import dev.emanoel.curso01.med.voll.Endereco.DadosEndereco;
+import dev.emanoel.curso01.med.voll.endereco.DadosEndereco;
 
 public record DadosCadastroMedico(
         String nome,
