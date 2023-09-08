@@ -1,9 +1,9 @@
 package dev.emanoel.curso01.med.voll.controller;
 
-import dev.emanoel.curso01.med.voll.endereco.Endereco;
 import dev.emanoel.curso01.med.voll.medico.DadosCadastroMedico;
 import dev.emanoel.curso01.med.voll.medico.Medico;
 import dev.emanoel.curso01.med.voll.medico.MedicoRepository;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,7 +20,7 @@ public class MedicoController {
 
     @PostMapping
     @Transactional
-    public void cadastrar(@RequestBody DadosCadastroMedico dados) {
+    public void cadastrar(@RequestBody @Valid DadosCadastroMedico dados) {
         repository.save(new Medico(dados));
     }
 }
