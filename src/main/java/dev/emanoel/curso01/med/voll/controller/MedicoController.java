@@ -1,9 +1,6 @@
 package dev.emanoel.curso01.med.voll.controller;
 
-import dev.emanoel.curso01.med.voll.medico.DadosCadastroMedico;
-import dev.emanoel.curso01.med.voll.medico.DadosListagemMedico;
-import dev.emanoel.curso01.med.voll.medico.Medico;
-import dev.emanoel.curso01.med.voll.medico.MedicoRepository;
+import dev.emanoel.curso01.med.voll.medico.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -32,5 +29,11 @@ public class MedicoController {
         return repository
                 .findAll(paginacao)
                 .map(DadosListagemMedico::new);
+    }
+
+    @PutMapping
+    @Transactional
+    public void atualizar(@RequestBody @Valid DadosAtualizacaoMedico dados) {
+
     }
 }
