@@ -1,4 +1,4 @@
-package dev.emanoel.curso01.med.voll.endereco;
+package dev.emanoel.springboot.med.voll.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

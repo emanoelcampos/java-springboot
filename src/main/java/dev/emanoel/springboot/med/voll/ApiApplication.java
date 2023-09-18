@@ -1,4 +1,4 @@
-package dev.emanoel.curso01.med.voll;
+package dev.emanoel.springboot.med.voll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

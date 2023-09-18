@@ -1,6 +1,6 @@
-package dev.emanoel.curso01.med.voll.medico;
+package dev.emanoel.springboot.med.voll.medico;
 
-import dev.emanoel.curso01.med.voll.endereco.DadosEndereco;
+import dev.emanoel.springboot.med.voll.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

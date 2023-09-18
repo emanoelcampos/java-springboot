@@ -1,4 +1,4 @@
-package dev.emanoel.curso01.med.voll.controller;
+package dev.emanoel.springboot.med.voll.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

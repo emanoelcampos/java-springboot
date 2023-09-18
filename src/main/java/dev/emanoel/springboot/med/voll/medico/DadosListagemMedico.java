@@ -1,4 +1,4 @@
-package dev.emanoel.curso01.med.voll.medico;
+package dev.emanoel.springboot.med.voll.medico;
 
 public record DadosListagemMedico(
         Long id,

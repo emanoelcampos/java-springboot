@@ -1,6 +1,6 @@
-package dev.emanoel.curso01.med.voll.medico;
+package dev.emanoel.springboot.med.voll.medico;
 
-import dev.emanoel.curso01.med.voll.endereco.Endereco;
+import dev.emanoel.springboot.med.voll.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
