@@ -1,4 +1,4 @@
-package dev.emanoel.springboot.med.voll.endereco;
+package dev.emanoel.springboot.med.voll.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

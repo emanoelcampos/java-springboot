@@ -1,6 +1,6 @@
 package dev.emanoel.springboot.med.voll.controller;
 
-import dev.emanoel.springboot.med.voll.medico.*;
+import dev.emanoel.springboot.med.voll.domain.medico.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -65,7 +65,6 @@ public class MedicoController {
     @Transactional
     public ResponseEntity detalhar(@PathVariable Long id) {
         var medico = repository.getReferenceById(id);
-
         return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
     }
 }
