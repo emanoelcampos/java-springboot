@@ -1,4 +1,4 @@
-package dev.emanoel.springboot.med.voll.infra;
+package dev.emanoel.springboot.med.voll.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
